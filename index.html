@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Materiales de Oficina</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script defer src="js/main.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Tienda de Materiales de Oficina</h1>
+        <nav>
+            <button id="btn-mostrar-papeleria">📎 Papelería</button>
+            <button id="btn-mostrar-tecnologia">💻 Tecnología</button>
+            <button id="btn-mostrar-mobiliario">🪑 Mobiliario</button>
+            <button id="btn-carrito">🛒 Carrito (<span id="contador-carrito">0</span>)</button>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="filtros">
+            <input type="text" id="buscar" placeholder="Buscar por nombre...">
+        </section>
+        
+        <section id="productos-container">
+            <!-- Productos dinámicos -->
+        </section>
+    </main>
+</body>
+</html>
